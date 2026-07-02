@@ -6,8 +6,8 @@
   home.stateVersion = "26.05";
   programs.home-manager.enable = true;
 
-  # Env vars
-  xdg.stateHome = "${config.home.homeDirectory}/.local/state";
+  # XDG
+  xdg.enable = true;
 
   # Dotfiles
   xdg.configFile = {
