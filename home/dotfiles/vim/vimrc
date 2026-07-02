@@ -16,6 +16,12 @@ set wildmode=longest:full,full
 set path+=**
 
 " Backup files
+if !isdirectory($XDG_STATE_HOME . "/vim/backup")
+  call mkdir($XDG_STATE_HOME . "/vim/backup", "p")
+endif
+if !isdirectory($XDG_STATE_HOME . "/vim/backupf")
+  call mkdir($XDG_STATE_HOME . "/vim/backupf", "p")
+endif
 set backup
 set backupdir=$XDG_STATE_HOME/vim/backup//
 set directory=$XDG_STATE_HOME/vim/backupf//
