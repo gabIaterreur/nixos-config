@@ -49,10 +49,10 @@ nnoremap <Leader>t :term<CR>
 syntax enable
 filetype plugin indent on
 
-call plug#begin()
-
-Plug 'tpope/vim-fugitive'
-
-call plug#end()
+" call plug#begin()
+" 
+" Plug 'tpope/vim-fugitive'
+" 
+" call plug#end()
 
 colorscheme habamax

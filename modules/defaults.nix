@@ -10,7 +10,6 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   	vim
-    vim-plug
     wget
     curl
     git 
