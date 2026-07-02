@@ -10,21 +10,22 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   	vim
-        wget
-        curl
-        git 
-        htop
-        unzip 
-        zip 
+    vim-plug
+    wget
+    curl
+    git 
+    htop
+    unzip 
+    zip 
 	bat        
-        tree
-        ripgrep 
-        man-pages 
-        man-pages-posix 
-        usbutils 
-        pciutils 
-        file 
-        fd 
+    tree
+    ripgrep 
+    man-pages 
+    man-pages-posix 
+    usbutils 
+    pciutils 
+    file 
+    fd 
   ];
 
   programs.zsh.enable = true;
